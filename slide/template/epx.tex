@@ -1,7 +1,12 @@
+\def\pgfsysdriver{pgfsys-dvipdfm.def}
 \documentclass{beamer}
 
 \usepackage[UTF8,fontset=windows]{ctex}
-\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5,debug]{beamerposter}
+\usepackage{pgfpages}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5]{beamerposter}
+
+%\setbeameroption{show notes}
+\setbeameroption{show notes on second screen=right}
 
 \title{Clear Block系列随笔 \\ EpX - ***}
 \author{天念 \thanks{dtiannian@gmail.com, dtiannian@aliyun.com}}
